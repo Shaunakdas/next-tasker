@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.header-text {
+  color: var(--primary);
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.login-info {
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.login-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.separator {
+  height: 20px;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.no-account-link {
+  color: var(--primary);
+  font-size: 16px;
+  text-align: right;
+  margin-top: 20px;
+}

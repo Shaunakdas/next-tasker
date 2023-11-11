@@ -1,0 +1,42 @@
+.container {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.user-email {
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.action-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.settings-link {
+  font-size: 0.8em;
+  padding: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  outline: none;
+  margin-left: 10px;
+  background: none;
+  outline: none;
+}
+
+.welcome-text {
+  font-size: 1.8em;
+  color: var(--primary);
+  text-align: center;
+}

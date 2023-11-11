@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.heading-text {
+  font-size: 2em;
+  color: var(--primary);
+  margin-bottom: 30px;
+}

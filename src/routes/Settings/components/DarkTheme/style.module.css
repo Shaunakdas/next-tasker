@@ -1,0 +1,14 @@
+.settings-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.settings-text {
+  font-size: 1.2em;
+  color: var(--primary);
+  font-weight: bold;
+}

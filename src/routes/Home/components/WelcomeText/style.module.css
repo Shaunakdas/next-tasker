@@ -1,0 +1,8 @@
+.welcome-text {
+  color: var(--primary);
+  margin-bottom: 50px;
+}
+
+.login-link {
+  color: var(--primary);
+}
